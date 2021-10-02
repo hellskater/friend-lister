@@ -1,0 +1,56 @@
+.friendList__pageNumbers {
+  display: flex;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .friendList__pageNumbers > h3 {
+  padding: 12px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+} */
+
+.friendList__nextButton {
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  margin-left: 20px;
+  width: 80px;
+}
+
+.friendList__prevButton {
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 12, 241, 1) 0%,
+    rgba(250, 0, 135, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
